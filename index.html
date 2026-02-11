@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Index - The homepage of Erland Wicklund</title>
+<style>
+    body {
+        background-image: url('images/rymd.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Blink-effekt med CSS */
+    @keyframes blink {
+        0%, 50%, 100% { opacity: 1; }
+        25%, 75% { opacity: 0; }
+    }
+    .blink {
+        font-size: 2em;
+        font-weight: bold;
+        animation: blink 1s infinite;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    img {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .button-link img {
+        width: 100px;
+        height: 50px;
+        transition: transform 0.2s;
+    }
+    .button-link img:hover {
+        transform: scale(1.1);
+    }
+
+    .caption {
+        font-size: 0.8em;
+        margin-top: 5px;
+    }
+
+    p.spacer {
+        margin: 15px 0;
+    }
+</style>
+</head>
+<body>
+
+<p class="spacer"></p>
+
+<div class="blink">Welcome stranger - to my retro pages from 1998!</div>
+<h2>Prepare to visit.. a time when we still had fun creating</h2>
+
+<img src="images/ewhomepg.gif" alt="Welcome Image" width="552" height="165">
+<div class="caption">a place for me and other alien things!</div>
+
+<p class="spacer"></p>
+
+<a href="main.htm" class="button-link">
+    <img src="images/butenter.gif" alt="Enter Button">
+</a>
+
+</body>
+</html>
+
