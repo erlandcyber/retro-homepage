@@ -13,7 +13,7 @@
         padding: 10px;
         font-family: Arial, sans-serif;
         color: #0000FF;
-        background: url('images/rymd.gif') repeat; /* ändra till 'no-repeat center center; background-size: cover;' om du vill täcka hela */
+        background: url('images/rymd.gif') repeat;
     }
 
     .menu-button {
@@ -35,6 +35,34 @@
         box-shadow: 0 0 8px #FFFFFF;
     }
 
+    /* Ny professionell knapp */
+    .pro-button {
+        display: block;
+        width: 120px;              /* samma bredd som övriga */
+        margin: 40px 0 5px 0;      /* mer luft ovanför */
+        padding: 10px 0;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #0044cc;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        line-height: 1.2;
+    }
+
+    .pro-button span {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 2px;
+    }
+
+    .pro-button:hover {
+        background-color: #0066ff;
+        box-shadow: 0 0 10px #FFFFFF;
+    }
+
     img.header {
         display: block;
         margin-bottom: 15px;
@@ -43,6 +71,7 @@
 </head>
 
 <body>
+
 <img class="header" src="images/ewhomep2.gif" alt="Header">
 
 <a class="menu-button" href="index2.htm" target="main">What's this?</a>
@@ -54,6 +83,13 @@
 <a class="menu-button" href="freestuff.htm" target="main">Free stuff</a>
 <a class="menu-button" href="https://www.youtube.com/@erlandwideo" target="_blank">YouTube</a>
 <a class="menu-button" href="contact.htm" target="main">Contact me</a>
+
+<!-- Ny tydlig professionell ingång -->
+<a class="pro-button" href="yrkesprofil.html" target="main">
+    Professionell
+    <span>Profil 2026</span>
+</a>
+
 </body>
 
 </html>
